@@ -102,10 +102,12 @@ public class ClassReplaceTransform extends Transform {
                                     newJarEntry.size = inputStream.available()
                                     newJarEntry.method = jarEntry.DEFLATED
                                     newJarEntry.time = 0
+                                    newJarEntry.compressedSize = -1;
                                     newJarEntry.extra = jarEntry.extra
                                     newJarEntry.crc = FileUtils.checksumCRC32(sourceFile)
                                     jarEntry = newJarEntry
                                 } else {
+                                    jarEntry.compressedSize = -1;
                                     inputStream = jarFile.getInputStream(jarEntry)
                                 }
 

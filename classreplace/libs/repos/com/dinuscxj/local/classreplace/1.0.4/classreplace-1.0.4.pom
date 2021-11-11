@@ -2,9 +2,9 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.dinuscxj.classreplace</groupId>
+  <groupId>com.dinuscxj.local</groupId>
   <artifactId>classreplace</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.4</version>
   <dependencies>
     <dependency>
       <groupId>com.android.tools.build</groupId>
@@ -15,7 +15,7 @@
     <dependency>
       <groupId>com.android.tools.build</groupId>
       <artifactId>gradle</artifactId>
-      <version>2.3.1</version>
+      <version>4.0.1</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
