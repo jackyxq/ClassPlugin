@@ -20,7 +20,7 @@ To use `ClassPlugin` in a `module`, add the plugin to your `buildscript`:
         }
     
         dependencies {
-            classpath 'com.github.jackyxq:ClassPlugin:1.0.3'
+            classpath 'com.github.jackyxq:ClassPlugin:1.0.4'
         }
     }
 ```
